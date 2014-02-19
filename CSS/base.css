@@ -1,0 +1,26 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    margin-bottom:16px;
+}
+
+a {
+    color: #aaaaaa;
+}
+
+a:hover {
+    color:#ffffff;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+}    
