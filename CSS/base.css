@@ -12,15 +12,15 @@ p {
     margin-bottom:16px;
 }
 
-a {
-    color: #aaaaaa;
-}
-
-a:hover {
-    color:#ffffff;
-}
-
 header {
     background-color: #000000;
     color: #ffffff;
-}    
+} 
+
+ header a {
+    color: #aaaaaa;
+}
+
+ header a:hover {
+    color:#ffffff;
+}
