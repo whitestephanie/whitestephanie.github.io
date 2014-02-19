@@ -15,12 +15,32 @@ p {
 header {
     background-color: #000000;
     color: #ffffff;
+    height: 44px;
 } 
+
+header h1 {
+    float:left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 22px;
+    font-weight:500;
+    padding: 10px; /* TRouble */ 
+}
 
  header a {
     color: #aaaaaa;
+    text-decoration:none;
 }
 
+ header a:link {}
+ header a:visited {}
  header a:hover {
     color:#ffffff;
+}
+header a:active {
+    text-decoration:underline;
+}
+header a:focus {}
+
+article {
+    clear:both;
 }
