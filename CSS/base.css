@@ -14,6 +14,8 @@ body {
 div {
     border-style: solid;
     border-width: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p {
@@ -57,11 +59,16 @@ header a:active {
 }
 header a:focus {}
 
-img {
-    float:right;
+figure {
+    margin-left: 300px;
     padding:0px; 
-    margin-right: 50px;
 }
+
+Section {
+    margin-left: 355px;
+    padding: 0px;
+}
+    
 
 article {
     clear:both;
@@ -82,5 +89,5 @@ article h2 {
 
 footer {
     font-size: 12px; 
-    padding:  10px 0 10px;
+    padding:  200px 0 10px 0;
 }
